@@ -49,6 +49,8 @@ export default function LandingPage() {
       buttons={[
         {
           text: "Discover Collection",          href: "#philosophy"},
+        {
+          text: "View Lookbook",          href: "#"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/woman-sitting-chair-black-white-side-view_23-2149411361.jpg"
     />
