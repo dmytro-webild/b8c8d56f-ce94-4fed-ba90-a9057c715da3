@@ -115,6 +115,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "plain"}}
+      buttons={[
+        {
+          text: "Initiate Inquiry",          href: "mailto:hello@luxis.com"
+        }
+      ]}
       text="The Luxis journey continues. Inquire about private appointments or bespoke consultations."
     />
   </div>
