@@ -30,21 +30,13 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Prelude",
-          id: "prelude",
-        },
+          name: "Prelude",          id: "prelude"},
         {
-          name: "Philosophy",
-          id: "philosophy",
-        },
+          name: "Philosophy",          id: "philosophy"},
         {
-          name: "Craft",
-          id: "craft",
-        },
+          name: "Craft",          id: "craft"},
         {
-          name: "Commitment",
-          id: "commitment",
-        },
+          name: "Commitment",          id: "commitment"},
       ]}
       brandName="LUXIS"
     />
@@ -56,9 +48,7 @@ export default function LandingPage() {
       description="Where heritage converges with innovation, defining the modern silhouette through the lens of quiet luxury and uncompromising architectural intent."
       buttons={[
         {
-          text: "Discover Collection",
-          href: "#philosophy",
-        },
+          text: "Discover Collection",          href: "#philosophy"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/woman-sitting-chair-black-white-side-view_23-2149411361.jpg"
     />
@@ -79,19 +69,13 @@ export default function LandingPage() {
       features={[
         {
           icon: Diamond,
-          title: "Artisanal Finishing",
-          description: "Hand-stitched precision in every garment.",
-        },
+          title: "Artisanal Finishing",          description: "Hand-stitched precision in every garment."},
         {
           icon: Leaf,
-          title: "Ethical Sourcing",
-          description: "Sustainable wools, thoughtfully procured.",
-        },
+          title: "Ethical Sourcing",          description: "Sustainable wools, thoughtfully procured."},
         {
           icon: Layers,
-          title: "Italian Silks",
-          description: "Unrivaled premium fibers for drape and longevity.",
-        },
+          title: "Italian Silks",          description: "Unrivaled premium fibers for drape and longevity."},
       ]}
       title="Mastery of Craft"
       description="Obsessive detail defines every stitch. From raw Italian silk to reclaimed sustainable wools, our artisanal finishing ensures that beauty persists beyond the season."
@@ -100,27 +84,19 @@ export default function LandingPage() {
 
   <div id="muse" data-section="muse">
       <MetricCardThree
+      animationType="blur-reveal"
       textboxLayout="default"
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          icon: Star,
-          title: "Personal Style",
-          value: "100%",
-        },
+          id: "m1",          icon: Star,
+          title: "Personal Style",          value: "100%"},
         {
-          id: "m2",
-          icon: Crown,
-          title: "Trend Longevity",
-          value: "Infinite",
-        },
+          id: "m2",          icon: Crown,
+          title: "Trend Longevity",          value: "Infinite"},
         {
-          id: "m3",
-          icon: Award,
-          title: "Artisanal Quality",
-          value: "Unmatched",
-        },
+          id: "m3",          icon: Award,
+          title: "Artisanal Quality",          value: "Unmatched"},
       ]}
       title="The Luxis Muse"
       description="A discerning individual who prioritizes substance over trend, valuing architectural form that mirrors a life well-lived."
@@ -138,8 +114,7 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       text="The Luxis journey continues. Inquire about private appointments or bespoke consultations."
     />
   </div>
@@ -148,13 +123,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText="LUXIS"
       leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
+        text: "Privacy Policy",        href: "#"}}
       rightLink={{
-        text: "Terms of Service",
-        href: "#",
-      }}
+        text: "Terms of Service",        href: "#"}}
     />
   </div>
       </ReactLenis>
